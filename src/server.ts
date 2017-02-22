@@ -14,7 +14,7 @@ import { routes } from './server.routes';
 
 // App
 
-const app  = express();
+const app = express();
 const ROOT = path.join(path.resolve(__dirname, '..'));
 const port = process.env.PORT || 4200;
 
@@ -40,7 +40,7 @@ app.use(compression());
 /**
  * serve static files
  */
-app.use('/', express.static(path.join(ROOT, 'client'), {index: false}));
+app.use('/', express.static(path.join(ROOT, 'client'), { index: false }));
 
 /**
  * place your api routes here
@@ -57,7 +57,8 @@ function ngApp(req: any, res: any) {
     req,
     res,
     ngModule: AppModule,
-    preboot: false,
+    preboot: true,
+    async: true,
     baseUrl: '/',
     requestUrl: req.originalUrl,
     originUrl: req.hostname
@@ -77,9 +78,9 @@ routes.forEach(route => {
  * if you want to use universal for all routes, you can use the '*' wildcard
  */
 
-app.get('*', function (req: any, res: any) {
+app.get('*', function(req: any, res: any) {
   res.setHeader('Content-Type', 'application/json');
-  const pojo = {status: 404, message: 'No Content'};
+  const pojo = { status: 404, message: 'No Content' };
   const json = JSON.stringify(pojo, null, 2);
   res.status(404).send(json);
 });

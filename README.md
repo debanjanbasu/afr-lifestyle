@@ -1,4 +1,21 @@
-# AfrLifestyle
+# Afr Lifestyle
+
+This project started as a POC to use CAPI and demonstrate the capabilities of it in conjunction with the Angular 2 platform. This includes Server Side Rendering and Front-end work too.
+
+Technology Stack:
+
+Angular 2
+NodeJS
+HTTP2
+Brottli Compression
+Bootstrap 4
+Font Awesome
+
+The developers can be reached at:
+
+`Debanjan Basu` <debanjanbasu2006@gmail.com , debanjan.basu@fairfaxmedia.com.au>
+
+## Project generator ##
 
 This project was generated with [universal-cli](https://github.com/devCrossNet/universal-cli) version 1.0.0-alpha.universal.3.
 

@@ -13,7 +13,7 @@ Font Awesome
 
 The developers can be reached at:
 
-`Debanjan Basu` <debanjanbasu2006@gmail.com , debanjan.basu@fairfaxmedia.com.au>
+`Debanjan Basu` <debanjanbasu2006@gmail.com> , <debanjan.basu@fairfaxmedia.com.au>
 
 ## Project generator ##
 

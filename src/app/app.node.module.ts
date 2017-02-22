@@ -10,7 +10,7 @@ import { NgModule } from '@angular/core';
 import { UniversalModule } from 'angular2-universal';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './index';
-// import { RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 // import { appRoutes } from './app/app.routing';
 
 /**

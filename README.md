@@ -4,12 +4,12 @@ This project started as a POC to use CAPI and demonstrate the capabilities of it
 
 Technology Stack:
 
-Angular 2
-NodeJS
-HTTP2
-Brottli Compression
-Bootstrap 4
-Font Awesome
+* Angular 2
+* NodeJS
+* HTTP2
+* Brottli Compression
+* Bootstrap 4
+* Font Awesome
 
 The developers can be reached at:
 

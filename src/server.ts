@@ -5,7 +5,7 @@ import './polyfills.ts';
 import './__2.1.1.workaround.ts'; // temporary until 2.1.1 things are patched in Core
 import * as path from 'path';
 import * as express from 'express';
-import * as compression from 'compression';
+import * as shrinkray from 'shrink-ray';
 import { createEngine } from 'angular2-express-engine';
 import { enableProdMode } from '@angular/core';
 import { AppModule } from './app/app.node.module';
@@ -33,9 +33,9 @@ app.set('views', path.join(ROOT, 'client'));
 app.set('view engine', 'html');
 
 /**
- * Enable compression
+ * Enable shrinkray
  */
-app.use(compression());
+app.use(shrinkray());
 
 /**
  * serve static files

@@ -1,6 +1,6 @@
 # Afr Lifestyle
 
-This project started as a POC to use CAPI and demonstrate the capabilities of it in conjunction with the Angular 2 platform. This includes Server Side Rendering and Front-end work too.
+This project started as a POC to use CAPI and demonstrate the capabilities of it in conjunction with the Angular 2 platform. This includes Server Side Rendering and Front-end development of the highest possible standards.
 
 Technology Stack:
 
@@ -20,6 +20,9 @@ The developers can be reached at:
 This project was generated with [universal-cli](https://github.com/devCrossNet/universal-cli) version 1.0.0-alpha.universal.3.
 
 ## Development server
+
+First ensure that you have universal-cli and a few other optional installed globally. Run `npm i -g universal-cli webpack rxjs node-gyp` .
+
 Run `ung serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding

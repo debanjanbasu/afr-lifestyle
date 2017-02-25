@@ -1,4 +1,8 @@
+<p align="center">
 
+    <img src="https://cdn.rawgit.com/debanjanbasu/afr-lifestyle/a319bade/afr-lifestyle-tech-stack.png" alt="AFR Lifestyle" height="640"/>
+
+</p>
 
 # Afr Lifestyle
 

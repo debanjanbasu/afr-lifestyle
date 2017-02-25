@@ -1,3 +1,5 @@
+
+
 # Afr Lifestyle
 
 This project started as a POC to use CAPI and demonstrate the capabilities of it in conjunction with the Angular 2 platform. This includes Server Side Rendering and Front-end development of the highest possible standards.

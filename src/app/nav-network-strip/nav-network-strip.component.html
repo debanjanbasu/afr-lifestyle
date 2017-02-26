@@ -1,0 +1,33 @@
+<nav class="container navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-toggle="collapse" data-target="#nav--network-strip" aria-controls="nav--network-strip" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand hidden-lg-up" href="javascript:;">&zwnj;</a>
+    <div [ngbCollapse]="isNavbarCollapsed" class="navbar-collapse collapse" id="nav--network-strip" aria-expanded="false">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="http://www.afr.com/">Today's Paper</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="http://www.afr.com/videos">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="http://data.afr.com/index.html" target="_blank">Infographics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="http://tools.afr.com/markets-data/" target="_blank">Markets Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="http://www.afr.com/leadership/brw-lists">BRW Lists</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-item nav-link" href="javascript:;">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item nav-link subscribe text-white" href="http://subscribers.afr.com/subscribe-all/?iid=houseinv:nnn-16omntA0336-acq-HL-28092016-afr.com-nnn-SUB-nnn-AFR-nnn&campaign_code=afr.com&promote_channel=AFR_A_HI_HL_SUB">Subscribe</a>
+            </li>
+        </ul>
+    </div>
+</nav>

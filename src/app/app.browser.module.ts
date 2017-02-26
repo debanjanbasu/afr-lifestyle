@@ -9,8 +9,10 @@
 import { NgModule } from '@angular/core';
 import { UniversalModule } from 'angular2-universal';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './index';
 import { RouterModule } from '@angular/router';
+import { NavNetworkStripComponent } from './nav-network-strip/nav-network-strip.component';
 // import { appRoutes } from './app/app.routing';
 
 /**
@@ -18,16 +20,17 @@ import { RouterModule } from '@angular/router';
  */
 @NgModule({
   /** Root App Component */
-  bootstrap: [ AppComponent ],
+  bootstrap: [AppComponent],
   /** Our Components */
-  declarations: [ AppComponent ],
+  declarations: [AppComponent, NavNetworkStripComponent],
   imports: [
     /**
      * NOTE: Needs to be your first import (!)
      * BrowserModule, HttpModule, and JsonpModule are included
      */
     UniversalModule,
-    FormsModule
+    FormsModule,
+    NgbModule.forRoot()
     /**
      * using routes
      */

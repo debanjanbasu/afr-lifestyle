@@ -1,8 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-// this is importing the bootstrap library and customizing it
-@import "_custom-variables";
-@import "~bootstrap/scss/bootstrap";
-
+// importing th font-awesome library
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";

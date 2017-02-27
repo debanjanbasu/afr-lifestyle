@@ -14,7 +14,7 @@ Technology Stack:
 * NodeJS
 * HTTP2
 * Brottli Compression
-* Bootstrap 4
+* SASS
 * Font Awesome
 
 The developers can be reached at:
@@ -31,7 +31,7 @@ First ensure that you have universal-cli and a few other optional installed glob
 
 Run `ung serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-If it does not reload - There is a `LiveReload` plugin for various browsers. Please install it.
+If it does not reload - There is a `LiveReload` plugin for various browsers. Please install it to get a status of the live reload functionality.
 
 ## Code scaffolding
 

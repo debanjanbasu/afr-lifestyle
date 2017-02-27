@@ -31,6 +31,8 @@ First ensure that you have universal-cli and a few other optional installed glob
 
 Run `ung serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+If it does not reload - There is a `LiveReload` plugin for various browsers. Please install it.
+
 ## Code scaffolding
 
 Run `ung generate component component-name` to generate a new component. You can also use `ung generate directive/pipe/service/class`.

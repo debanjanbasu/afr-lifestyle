@@ -11,7 +11,7 @@ import * as spdy from 'spdy';
 import * as fs from 'fs';
 import { createEngine } from 'angular2-express-engine';
 import { enableProdMode } from '@angular/core';
-import { AppModule } from './app/app.node.module';
+import { NodeAppModule } from './app/app.node.module';
 import { environment } from './environments/environment';
 import { routes } from './server.routes';
 
@@ -96,7 +96,7 @@ function ngApp(req: any, res: any) {
   res.render('index', {
     req,
     res,
-    ngModule: AppModule,
+    ngModule: NodeAppModule,
     preboot: true,
     async: true,
     baseUrl: '/',

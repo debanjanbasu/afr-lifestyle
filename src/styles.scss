@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "~normalize-scss/sass/normalize";
+@include normalize();
+
 // importing th font-awesome library
 $fa-font-path: "~font-awesome/fonts";
-@import "~font-awesome/scss/font-awesome.scss";
+@import "~font-awesome/scss/font-awesome";
+

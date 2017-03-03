@@ -1,0 +1,21 @@
+.logo--and-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    position: relative;
+    .logo a {
+        background: url("/assets/afr-logo.svg") no-repeat;
+        width: 380px;
+        height: 44px;
+        display: block;
+        background-size: 100% auto;
+        text-indent: -9999px;
+    }
+    .search {
+        position: absolute;
+        right: 0;
+    }
+}

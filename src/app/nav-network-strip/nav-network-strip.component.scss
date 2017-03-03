@@ -1,0 +1,28 @@
+.nav--network-strip {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        color: #000000;
+        padding: 4px 9px;
+        display: block;
+        text-decoration: none;
+        &:hover:not(.subscribe) {
+            background-color: #d2d8dc;
+        }
+    }
+    .subscribe {
+        background-color: #f23d4d;
+        color: #ffffff;
+    }
+}

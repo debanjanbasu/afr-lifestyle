@@ -1,5 +1,6 @@
 import './polyfills.ts';
 import './__2.1.1.workaround.ts';
+
 import 'zone.js/dist/long-stack-trace-zone';
 import 'zone.js/dist/proxy.js';
 import 'zone.js/dist/sync-test';

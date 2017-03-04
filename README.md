@@ -1,6 +1,6 @@
 <p align="center">
 
-    <img src="https://cdn.rawgit.com/debanjanbasu/afr-lifestyle/a319bade/afr-lifestyle-tech-stack.png" alt="AFR Lifestyle" height="320"/>
+    <img src="https://rawgit.com/debanjanbasu/afr-lifestyle/master/afr-lifestyle-tech-stack.png" alt="AFR Lifestyle" height="320"/>
 
 </p>
 

@@ -11,7 +11,7 @@
         flex-direction: column;
         height: 470px;
         > div {
-            min-width: calc(100% / 3);
+            width: calc(100% / 3);
         }
     }
     h5 {

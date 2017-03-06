@@ -7,12 +7,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavNetworkStripComponent } from './nav-network-strip/nav-network-strip.component';
 import { LogoAndSearchComponent } from './logo-and-search/logo-and-search.component';
+import { NavPrimaryComponent } from './nav-primary/nav-primary.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavNetworkStripComponent,
-    LogoAndSearchComponent
+    LogoAndSearchComponent,
+    NavPrimaryComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,

@@ -1,5 +1,6 @@
+@import "_variables";
 .container-main {
-    max-width: 940px;
+    max-width: $container-main--width;
     margin: 0 auto;
     font-size: 12px;
 }

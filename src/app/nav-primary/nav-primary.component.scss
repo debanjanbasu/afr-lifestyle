@@ -1,0 +1,46 @@
+.nav--primary {
+    $href--hover-color: #0089d0;
+    > ul > li {
+        display: inline-block;
+        &:hover {
+            > a {
+                color: $href--hover-color;
+            }
+            > ul {
+                display: block;
+            }
+        }
+        > a {
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: bold;
+            display: block;
+        }
+        > ul {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            border: 1px solid #d2d8dc;
+            border-top: 0;
+            min-width: 160px;
+            a {
+                display: block;
+                color: #666666;
+                padding: 10px 14px;
+                &:hover {
+                    color: $href--hover-color;
+                    background: #f2f2f2;
+                }
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        padding: 7px 4px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+}

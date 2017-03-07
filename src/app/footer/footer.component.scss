@@ -1,15 +1,28 @@
 @import "../app.component";
-.footer--primary {
-    background-color: #323b40;
+%footer-common {
     color: #ffffff;
     margin-left: calc(-100vw / 2 + #{$container-main--width} / 2);
     margin-right: calc(-100vw / 2 + #{$container-main--width} / 2);
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 13px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+.footer--primary {
+    @extend %footer-common;
+    background-color: #323b40;
     padding-top: 30px;
     .footer--main-wrap {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        height: 470px;
+        max-height: 460px;
         > div {
             width: calc(100% / 3);
         }
@@ -20,14 +33,7 @@
         font-size: 13px;
         margin: 0 0 6px 0;
     }
-    a {
-        text-decoration: none;
-        color: inherit;
-        font-size: 13px;
-    }
     ul {
-        list-style: none;
-        padding: 0;
         margin-bottom: 30px;
     }
     .social {
@@ -45,6 +51,34 @@
         li {
             margin: 0 10px 10px 0;
             width: 120px;
+        }
+    }
+}
+
+.footer--secondary {
+    @extend %footer-common;
+    background-color: #262d31;
+    ul {
+        margin: 0;
+    }
+    .legal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        & li:first-child {
+            overflow: hidden;
+            text-indent: -9999px;
+            background: url("/assets/afr-logo--footer-white.svg") no-repeat;
+            height: 40px;
+            width: 70px;
+            background-size: 100% auto;
+        }
+        & li:nth-child(2) {
+            flex-grow: 1;
+        }
+        & li:not(:last-child) {
+            margin-right: 30px;
         }
     }
 }

@@ -9,6 +9,7 @@ import { NavNetworkStripComponent } from './nav-network-strip/nav-network-strip.
 import { LogoAndSearchComponent } from './logo-and-search/logo-and-search.component';
 import { NavPrimaryComponent } from './nav-primary/nav-primary.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrandTopStoriesFooterComponent } from './brand-top-stories-footer/brand-top-stories-footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     NavNetworkStripComponent,
     LogoAndSearchComponent,
     NavPrimaryComponent,
-    FooterComponent
+    FooterComponent,
+    BrandTopStoriesFooterComponent
   ],
   imports: [
     CommonModule,

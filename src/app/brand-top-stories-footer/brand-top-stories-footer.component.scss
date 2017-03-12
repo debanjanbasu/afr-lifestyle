@@ -1,0 +1,52 @@
+.brand-top-stories {
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+    li {
+        width: 25%;
+        padding: 0 10px;
+        &:not(:last-of-type) h2 a {
+            display: block;
+            background-size: auto 100% !important;
+            text-indent: -9999px;
+            height: 22px;
+            width: 100%;
+        }
+        &:first-of-type {
+            h2 a {
+                background: url("/assets/financial-review--magazine.svg") no-repeat;
+            }
+        }
+        &:nth-of-type(2) {
+            h2 a {
+                background: url("/assets/boss.svg") no-repeat;
+            }
+        }
+        &:nth-of-type(3) {
+            h2 a {
+                background: url("/assets/life-and-leisure.svg") no-repeat;
+            }
+        }
+        &:last-of-type {
+            background-color: #dedede;
+            h2 a {
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+    h3 {
+        margin: 0;
+    }
+    article {
+        margin-bottom: 10px;
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: normal;
+    }
+}

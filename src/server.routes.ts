@@ -10,5 +10,7 @@
  * ];
  **/
 export const routes: string[] = [
-
+  'lifestyle', 'lifestyle/travel', 'lifestyle/food-and-wine',
+  'lifestyle/fashion', 'lifestyle/watches-and-jewellery', 'lifestyle/arts-and-entertainment',
+  'lifestyle/cars-bikes-and-boats', 'lifestyle/health', 'lifestyle/home-design'
 ];
